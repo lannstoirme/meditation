@@ -3,7 +3,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, Image, Button, TouchableOpacity, SafeAreaView } from 'react-native';
 import CardList from './src/tracks/CardList';
-import Activities from './src/activities/Activities.js';
+import Swipe from './src/activities/Activities.js';
 
 import { render } from 'react-dom';
 
@@ -103,13 +103,13 @@ function CardListScreenStack({ navigation }) {
   );
 }
 
-function ActivitiesStack({ navigation }) {
+function SwipeStack({ navigation }) {
   return (
     <Stack.Navigator
-    initialRouteName="Activities">
+    initialRouteName="Swipe">
       <Stack.Screen
-      name="Activities"
-      component={Activities}
+      name="Swipe"
+      component={Swipe}
       options={{
         title: 'Activity Ideas',
         headerLeft: ()=> <NavigationDrawerStructure navigationProps={navigation} />,
@@ -188,9 +188,9 @@ function App() {
        options={{ drawerLabel: 'Suicide Hotline Search' }}
        component={SuicideHotlineStack} />
        <Drawer.Screen
-       name="ActivitiesStack"
+       name="SwipeStack"
        options={{ drawerLabel: 'Activity Ideas'}}
-       component={ActivitiesStack} />
+       component={SwipeStack} />
        <Drawer.Screen
        name="CardList"
        options={{ drawerLabel: 'Meditation List' }}
