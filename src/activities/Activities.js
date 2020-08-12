@@ -2,8 +2,6 @@ import 'react-native-gesture-handler';
 import React, { Component } from 'react';
 import {StyleSheet, Text, View, SafeAreaView } from 'react-native'; 
 
-import React from 'react';
-import {StyleSheet, Text, View, Image} from 'react-native';
 
 import SwipeCards from 'react-native-swipe-cards';
 
