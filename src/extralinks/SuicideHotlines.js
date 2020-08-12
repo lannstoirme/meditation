@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import {StyleSheet, Text, View, SafeAreaView } from 'react-native';
 import { WebView } from 'react-native-webview';  
 
-const ChillaxBlog = ({ navigation }) => {
+const SuicideHotlines = ({ navigation }) => {
     return (
         <SafeAreaView style={styles.safeview}>
      <WebView source={{ uri: 'http://www.suicide.org/international-suicide-hotlines.html'}} />
@@ -11,7 +11,7 @@ const ChillaxBlog = ({ navigation }) => {
     );
 }
 
-export default ChillaxBlog;
+export default SuicideHotlines;
 
 const styles = StyleSheet.create({
     safeview: {

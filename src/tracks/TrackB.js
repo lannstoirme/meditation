@@ -43,7 +43,6 @@ stopSound() {
 render() {
     return(
         <View style={styles.container}>
-        
                 <View style={styles.rowaligner}>
                     <TouchableOpacity onPress={this.playSound.bind(this)}>
                         <Image style={styles.image}
@@ -54,7 +53,6 @@ render() {
                             source = {stopbutton} />
                     </TouchableOpacity>
                 </View>
-           
         </View>
     );
 }}
