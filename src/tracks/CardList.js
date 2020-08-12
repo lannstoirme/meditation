@@ -1,19 +1,20 @@
+import 'react-native-gesture-handler';
 import { Card, CardTitle, CardContent, CardAction, CardButton, CardImage } from 'react-native-cards';
-import { ScrollView, StyleSheet, View, Text, Button } from 'react-native';
+import { ScrollView, StyleSheet, View, Text, Button, SafeAreaView } from 'react-native';
 import TrackA from './TrackA';
 import TrackB from './TrackB';
 import TrackC from './TrackC';
 import React, { Component } from 'react';
 
 
-class CardList extends Component {
-    render() {
+const CardList =({ navigation }) => {
         return(
-            <ScrollView style={styles.scroll}>
+            <SafeAreaView style={styles.safeview}>
+                <ScrollView style={styles.scroll}>
                 <Card style={styles.card}>
     <CardImage 
       source={{uri: 'https://i.ibb.co/ypvG3yD/meditate1.png'}} 
-      title="Ten Minute Mindfulness of Breath"
+      title="Breath"
     />
     <CardTitle
       subtitle="Artist: Padraig O`Morain"
@@ -25,7 +26,7 @@ class CardList extends Component {
   <Card style={styles.card}>
     <CardImage 
       source={{uri: 'https://i.ibb.co/HGCShFV/Screen-Shot-2020-08-12-at-4-28-10-pm.png'}} 
-      title="Twenty Minutes Body Scan"
+      title="Body"
     />
     <CardTitle
       subtitle="Artis: UCSD Meditation Center"
@@ -36,7 +37,7 @@ class CardList extends Component {
   <Card style={styles.card}>
     <CardImage 
       source={{uri: 'https://i.ibb.co/HKwV84w/Meditate8.jpg'}} 
-      title="Complete Meditation"
+      title="Complete"
     />
     <CardTitle
       subtitle="Artist: Mindfulness Awareness Research Centre"
@@ -46,9 +47,9 @@ class CardList extends Component {
   </Card>
 
             </ScrollView>
+            </SafeAreaView>
         );
-    }
-};
+    };
 
 export default CardList;
 
@@ -59,6 +60,9 @@ const styles = StyleSheet.create({
     card: {
         borderBottomWidth: 20,
         borderBottomColor: '#C8A2CB',
+    },
+    safeview: {
+        flex: 1,
     }
 });
 
