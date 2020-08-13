@@ -72,7 +72,7 @@ const cards = [
     },
     {
         "name": "Learn a foreign language",
-        "name": "https://i.ibb.co/hgjjXFg/Reason-to-Learn-a-Foreign-Language.jpg",
+        "image": "https://i.ibb.co/hgjjXFg/Reason-to-Learn-a-Foreign-Language.jpg",
     },
     {
         "name": "Do an online course",
@@ -564,7 +564,7 @@ const cards2 = [
       },
       {
           "name": "Learn a foreign language",
-          "name": "https://i.ibb.co/hgjjXFg/Reason-to-Learn-a-Foreign-Language.jpg",
+          "image": "https://i.ibb.co/hgjjXFg/Reason-to-Learn-a-Foreign-Language.jpg",
       },
       {
           "name": "Do an online course",
