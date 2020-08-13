@@ -1,7 +1,6 @@
 import 'react-native-gesture-handler';
 import React, { Component } from 'react';
-import {StyleSheet, Text, View, SafeAreaView } from 'react-native'; 
-
+import {StyleSheet, Text, View, SafeAreaView, Image } from 'react-native'; 
 
 import SwipeCards from 'react-native-swipe-cards';
 
@@ -14,7 +13,7 @@ class Card extends React.Component {
     return (
       <View style={styles.card}>
         <Image style={styles.thumbnail} source={{uri: this.props.image}} />
-        <Text style={styles.text}>This is card {this.props.name}</Text>
+        <Text style={styles.text}>You can try: {this.props.name}</Text>
       </View>
     )
   }
