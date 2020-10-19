@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "meditate",
-    "slug": "meditate",
+    "name": "chillaxrelaxandunwind",
+    "slug": "chillaxrelaxandunwind",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,7 +17,7 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "bundleIdentifier": "com.almonddigitaltechnologies.chillax"
     },
     "web": {
       "favicon": "./assets/favicon.png"
