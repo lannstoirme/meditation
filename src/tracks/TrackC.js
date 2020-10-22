@@ -45,10 +45,12 @@ render() {
         <View style={styles.container}>   
                 <View style={styles.rowaligner}>
                     <TouchableOpacity onPress={this.playSound.bind(this)}>
+                        <Text>Play</Text>
                         <Image style={styles.image}
                             source = {playbutton} />
                     </TouchableOpacity>
                     <TouchableOpacity onPress={this.stopSound.bind(this)}>
+                        <Text>Stop</Text>
                         <Image style={styles.image}
                             source = {stopbutton} />
                     </TouchableOpacity>
@@ -67,8 +69,8 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     image: {
-        height: 40,
-        width: 40,
+        height: 50,
+        width: 50,
     },
     albumArt: {
         height: 300,

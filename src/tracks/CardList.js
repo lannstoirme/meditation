@@ -12,6 +12,7 @@ const CardList =({ navigation }) => {
             <SafeAreaView style={styles.safeview}>
                 <ScrollView style={styles.scroll}>
                 <Card style={styles.card}>
+                  <Text>Please use stop button to cease audio</Text>
     <CardImage 
       source={{uri: 'https://i.ibb.co/ypvG3yD/meditate1.png'}} 
       title="Breath"

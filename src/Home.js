@@ -10,7 +10,7 @@ const Home = ({ navigation }) => {
     
     <CardImage style={styles.image}
       source={{uri: 'https://i.ibb.co/vhP2dyC/yep.jpg'}} 
-      title="Chillax" /> 
+      title="    Chillax" /> 
     <CardContent style={styles.cardcontent}>
    
     <Text style={styles.description}>Welcome to Chillax. 
@@ -36,7 +36,7 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     description: {
-        fontSize: 16,
+        fontSize: 12,
         fontWeight: 'bold',
         alignItems: 'flex-start',
         justifyContent: 'center',
