@@ -30,7 +30,7 @@ const CardList =({ navigation }) => {
       title="Body"
     />
     <CardTitle
-      subtitle="Artis: UCSD Meditation Center"
+      subtitle="Artist: UCSD Meditation Center"
     />
     <Text style={styles.description}>Twenty minutes of releasing tension from every part of your body, to enable relaxation.</Text>
     <TrackB />
