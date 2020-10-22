@@ -9,7 +9,7 @@ const JoeChat = ({ navigation }) => {
         <WebView source={{ uri: 'https://guarded-dusk-82018.herokuapp.com/'}} />
         <View style={styles.container}>
                 <Image style={styles.image} source={{ uri: 'https://i.ibb.co/4ggBrDw/joechat.jpg'}} />
-                <Text style={styles.text}>Click on the small robot icon just above text Joe. He is here, any time you need him. The blue robot icon will appear shortly. He will wake up if you write 'Hi there,' and give him a minute or two to wake up.</Text>
+                <Text style={styles.text}>Click on the small robot icon just above to text Joe. He is here, any time you need him. The blue robot icon will appear shortly. He will wake up if you write 'Hi there,' and give him a minute or two to wake up.</Text>
             </View>
         </SafeAreaView>
         );
