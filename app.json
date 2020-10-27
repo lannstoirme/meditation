@@ -2,7 +2,7 @@
   "expo": {
     "name": "chillaxrelaxandunwind",
     "slug": "chillaxrelaxandunwind",
-    "version": "1.0.2",
+    "version": "2.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -23,6 +23,10 @@
       "favicon": "./assets/favicon.png"
     },
     "description": "This app is designed to assist people in alleviating distress due to isolation. The robot chat pal is available to speak to any time of day. The activity ideas contain some leisure and health related pastimes that also are useful for isolation or staying at home. There is a suicide hotline international number lookup, and also a blog with articles on coping with mental health issues. This app is not meant to take the place of a professional therapist or doctor, please seek a registered health practitioner if symptoms of stress and other upsetting feelings or thoughts persist. ",
-    "githubUrl": "https://github.com/lannstoirme/meditation"
+    "githubUrl": "https://github.com/lannstoirme/meditation",
+    "android": {
+      "package": "com.lannstoirme.chillax",
+      "permissions": []
+    }
   }
 }
